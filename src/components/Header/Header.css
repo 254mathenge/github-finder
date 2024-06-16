@@ -8,7 +8,17 @@
     background-color: rgba(4, 4, 34, 0.959);
     color:white;
     font-size: 1.5rem;
-    overflow: hidden;
+
+}
+@media screen and (max-width: 450px){
+    .header-navbar-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap:0.5rem
+    }  
+    
 }
 
  .git-link{

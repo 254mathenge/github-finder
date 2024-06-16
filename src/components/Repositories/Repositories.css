@@ -1,29 +1,52 @@
+.repository-wrapper{
+    display: flex;
+    flex-direction: column;
+    width: 70vw;
+}
 
 .repositories-section{
     display: flex;
     align-items: center;
-    justify-content: center;
-    /* flex-direction: column; */
     flex-wrap: wrap;
-    position: absolute;
-    top: 20%;
-    left: 30%;
-    gap: 3rem;
+    gap: 2rem;
     font-size: 1.5rem;
-    /* max-width: 850px; */
     padding:1rem ;
-     margin:1rem; 
+    margin:1rem; 
 }
-.Repository-h2{
-    position: absolute;
-    top: 20%;
-    left: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    gap: 0.5rem;
 
+@media screen and (max-width:1360px){
+    .repositories-section {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        left:auto;
+        right: auto;
+        margin-bottom: 1rem;
+    }
+    
+}
+@media screen and (min-width:1360px){
+    .repositories-section {
+margin-bottom:1rem ;
+
+    }
+}
+
+@media screen and (max-width:1360px){
+    .Repository-h2{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        left :auto;
+        right: auto;
+
+    }
 }
 .repositories-card{
     display: flex;
@@ -34,7 +57,7 @@
     overflow: hidden;
     border-radius: 15px;
     
-    width: 400px;
+    width: 300px;
     height: 200px;
    
     
@@ -70,3 +93,6 @@
     border-radius: 0 0 20px 20px;
 }
 
+.Repository-h2{
+    text-align: center;
+}

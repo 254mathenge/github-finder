@@ -5,11 +5,11 @@
     /* flex-direction: column; */
     flex-wrap: wrap;
     
-    gap: 3rem;
+    gap: 2rem;
     font-size: 1.5rem;
     /* max-width: 850px; */
-    padding:1rem ;
-     margin:1rem; 
+    padding:0.srem ;
+     margin:2rem; 
 }
 .follower-h2{
     display: flex;
@@ -17,15 +17,42 @@
     justify-content: center;
     flex-direction: column;
     gap: 0.5rem; 
+    margin: 1rem auto;
 }
 .follower-card{
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     flex-direction: column;
     flex-wrap: wrap;
     overflow: hidden;
     border-radius: 15px;
     width: 200px;
-    height: 200px; 
+    height: 200px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+.follower-image{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    width:200px;
+    height: 100px;
+    overflow: hidden;
+
+}
+.follower-image img{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    width: 100%;
+    height: 100%;
+  
+}
+.follower-link{
+background-color: rgb(4, 4, 59);
+padding: 0.3rem;
+width: 200px;
+overflow: hidden;
+border-radius: inherit;
+color: white;
 }
