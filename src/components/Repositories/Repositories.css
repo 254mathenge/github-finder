@@ -1,0 +1,72 @@
+
+.repositories-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+    position: absolute;
+    top: 20%;
+    left: 30%;
+    gap: 3rem;
+    font-size: 1.5rem;
+    /* max-width: 850px; */
+    padding:1rem ;
+     margin:1rem; 
+}
+.Repository-h2{
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 0.5rem;
+
+}
+.repositories-card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    overflow: hidden;
+    border-radius: 15px;
+    
+    width: 400px;
+    height: 200px;
+   
+    
+    
+}
+.repository-title-space{
+    border-radius: 20px 20px 0 0; 
+    /* height: 120px; */
+    padding: 3rem 0;
+    width: 100%;
+    background-color: gray;
+    
+    
+}
+.repository-title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    font-weight: 600;
+    position: center;
+    
+}
+.repository-star-fork{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    gap: 1rem;
+    font-size: 1.5rem;
+    background-color: rgb(233, 181, 113);
+    border-radius: 0 0 20px 20px;
+}
+

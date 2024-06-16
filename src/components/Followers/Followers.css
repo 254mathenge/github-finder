@@ -1,0 +1,31 @@
+.followers-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+    
+    gap: 3rem;
+    font-size: 1.5rem;
+    /* max-width: 850px; */
+    padding:1rem ;
+     margin:1rem; 
+}
+.follower-h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 0.5rem; 
+}
+.follower-card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    overflow: hidden;
+    border-radius: 15px;
+    width: 200px;
+    height: 200px; 
+}

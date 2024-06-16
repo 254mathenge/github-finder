@@ -1,0 +1,28 @@
+
+.header-navbar-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+    padding: 1.5rem ;
+    background-color: rgba(4, 4, 34, 0.959);
+    color:white;
+    font-size: 1.5rem;
+    overflow: hidden;
+}
+
+ .git-link{
+    color:white;
+    }
+
+.type-text ,button{
+    padding: 0.7rem;
+}
+.button{
+    transition: all ease 0.5s;
+}
+.button:hover{
+    background-color:rgba(0, 0, 0, 0.144);
+    transform: scale(1.05);
+    color: white;
+}
